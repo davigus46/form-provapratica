@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Courier_Prime_Regular"; src: url('fonts/Courier_Prime/CourierPrime-Regular.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Italic";src: url('fonts/Courier_Prime/CourierPrime-Italic.ttf');              
+}
+@font-face {
+    font-family: "Courier_Prime_Bold";src: url('fonts/Courier_Prime/CourierPrime-Bold.ttf');              
+}
+@font-face {
+    font-family: "Poppins"; src: url('fonts/Poppins/Poppins-Light.ttf'); 
+}
+@font-face {
+    font-family: "Poppins_bold"; src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+
+/* ------------------------------------------------------------------- 
+ * ## background and  colors 
+ * ------------------------------------------------------------------- */
+:root { 
+    --var_background : #efefef;
+    --var_color : #efefef;
+    --var_back_column1 : #647883;
+}
+/* ------------------------------------------------------------------- */
+
+
+body{
+  margin: 10%;
+  padding: 0;
+  
+}
+
+.titulo{
+    background-color: var(--var_background);
+    padding: 10px;
+    margin: 0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--var_background);
+    padding: 1.5rem;
+    
+    
+
+}
+.cabecalho__link{
+ display: inline;
+ padding: 0.5rem;
+}
+
+.content-side{
+    margin: 1%;
+
+}
+
+.feature{
+    background-color: var(--var_background);
+    display: flex;
+    justify-content:space-between;
+    gap: 12px;
+    padding: 1%;
+}
+.txt-side-left{
+    align-items: center;    
+    font-family: "Poppins_bold";
+    font-size: 1rem;
+}
+.txt-side-right{
+    font-family: "Poppins"; 
+    font-size: 1rem;
+
+}
+
+.texto__span{
+    font-family: "Poppins_bold" ;
+}
+
+.article{
+    background-color: var(--var_background);
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+    
+}
+
+.column1{
+    background-color: var(--var_back_column1);
+    padding: 0.5rem;
+    margin: 1%;
+}
+.p-title{
+    color: var(--var_color);
+    font-family: "Courier_Prime_Bold" ;
+    font-weight: 600;
+}
+.p-text-header{
+    color: var(--var_color);
+    font-family: "Courier_Prime_Italic" ;
+    font-weight: 400;
+
+}
+
+.p-text{
+    color: var(--var_color);
+    font-family: "Courier_Prime_Regular" ;
+    font-weight: 100;
+
+}
+
+
+.form__register{
+    font-family: "Courier_Prime_Bold";
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.form__fieldset{
+    display:grid;
+    gap: 8px;
+    justify-content:baseline;
+}
+
+.form__legend{
+    font-family: "Courier_Prime_Bold";
+
+}
+
+.form__submit{
+    padding: 1%;
+    margin: 0;
+}
+
+.form__submit:hover{
+    color: var(--var_back_column1);
+}
+
+.footer{
+    background-color: var(--var_background);
+    font-family: "Courier_Prime_Bold";
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
